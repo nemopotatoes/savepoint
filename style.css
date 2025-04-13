@@ -1,0 +1,39 @@
+body {
+    background-color: #f5e7da;
+    font-family: 'Dongle', sans-serif;
+    color: #6B5A53;
+}
+
+.container {
+    padding: 80px;
+}
+
+.profile {
+    background-color: #f9f4ee;
+    border-radius: 20px;
+    padding: 25px;
+    line-height: 10px;
+    display:flex;
+    width:fit-content;
+    min-width: 350px;
+}
+
+.avatar {
+    width:65px;
+    height: 65px;
+    border-radius: 50px;
+    background-color: #D9D9D9;
+    margin-right: 20px;
+}
+
+h1 {
+    font-family: 'Merriweather', serif;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+p {
+    font-family: 'Dongle', sans-serif;
+    font-size: 20px;
+    margin: 0px;
+}
