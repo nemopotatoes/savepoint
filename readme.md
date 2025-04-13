@@ -1,4 +1,4 @@
-# 🎮 Save Point
+# 🎮 Save Point [WIP]
 
 Save Point is a soft and simple web-based game journal for logging your game memories. Perfect for cozy gamers who want to track what they're playing, what they love, and how each game made them feel.
 
