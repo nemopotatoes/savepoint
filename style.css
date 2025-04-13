@@ -12,7 +12,7 @@ body {
     background-color: #f9f4ee;
     border-radius: 20px;
     padding: 25px;
-    line-height: 10px;
+    line-height: 13px;
     display:flex;
     width:fit-content;
     align-items: center;
@@ -29,22 +29,26 @@ body {
 
 h1 {
     font-family: 'Merriweather', serif;
-    font-size: 20px;
+    font-size: 25px;
     font-weight: 500;
 }
 
 p {
     font-family: 'Dongle', sans-serif;
-    font-size: 20px;
+    font-size: 28px;
     margin: 0px;
 }
 
 .game-grid {
     margin-top: 60px;
+    display:flex;
+    flex-wrap: wrap;
+    gap: 35px;
 }
 
 .game-card {
-    width: 280px;
+    min-width: 280px;
+    max-width: 280px;
     height: auto;
     background-color: #f9f4ee;
     border-radius: 20px;
@@ -87,6 +91,29 @@ h2 {
 
 .status.green {
     background-color: #BFC69C;
+    width: fit-content;
+    padding-left: 5px;
+    padding-right: 5px; 
+}
+
+.status.orange {
+    background-color: #E3C299;
+    width: fit-content;
+    padding-left: 5px;
+    padding-right: 5px; 
+}
+
+.status.red {
+    background-color: #DA736C;
+    color:#f9f4ee;
+    width: fit-content;
+    padding-left: 5px;
+    padding-right: 5px; 
+}
+
+.status.brown {
+    background-color: #6B5A53;
+    color:#f9f4ee;
     width: fit-content;
     padding-left: 5px;
     padding-right: 5px; 
