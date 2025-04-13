@@ -15,6 +15,7 @@ body {
     line-height: 10px;
     display:flex;
     width:fit-content;
+    align-items: center;
     min-width: 350px;
 }
 
